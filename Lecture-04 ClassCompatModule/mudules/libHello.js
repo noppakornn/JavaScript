@@ -13,7 +13,8 @@ function cube(x){
 }
 
 const add = (a,b) => a+b;
+const odd = (a,b) => a*b;
 
 const status = true;
 
-mudule.exports = {person, sayHello, cube, add, status}
+module.exports = {person, sayHello, cube, add, odd, status}
