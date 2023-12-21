@@ -35,7 +35,7 @@ try {
     console.log("Got an error");
     logError(ex);
 } finally {
-    console.log("Cde that always will run");
+    console.log("Code that always will run");
 }
 function hello() {
     console.log("\n********Throwing Exceptions\n");
