@@ -1,11 +1,9 @@
 function promiseTimeout(ms) {
-    console.log('Do somethings');
     return new Promise((resolve, reject) => {
         setTimeout(resolve, ms);
     });
 }
 async function longRunningoperations() {
-    console.log('Start Long Running Operations')
     return 42;
 }
 
@@ -19,7 +17,4 @@ async function run() {
     console.log(response);
     console.log("STOP!!");
 }
-
-console.log('Before run');
 run();
-console.log('After run');
