@@ -11,10 +11,10 @@ function findAllPeakElements(nums) {
 }
 
 // Example usage
-const nums1 = [3, 2, 3, 1];
+const nums1 = [3, 2, 3, 1]; 
 const nums2 = [1, 2, 1, 3, 5, 6, 4];
 const nums3 = [1, 2, 1, 4, 5, 6, 4, 7];
 
-console.log(findPeakIndices(nums1)); // Output: [0, 2]
-console.log(findPeakIndices(nums2)); // Output: [1, 5]
-console.log(findPeakIndices(nums3)); // Output: [1, 5, 7]
+console.log(findAllPeakElements(nums1)); // Output: [0, 2]
+console.log(findAllPeakElements(nums2)); // Output: [1, 5]
+console.log(findAllPeakElements(nums3)); // Output: [1, 5, 7]
