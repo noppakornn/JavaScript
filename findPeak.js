@@ -2,7 +2,7 @@ function findAllPeakElements(nums) {
     const result = [];
 
     for (let i = 0; i < nums.length; i++) {
-        if ((i === 0 || nums[i] > nums[i - 1]) && (i === nums.length - 1 || nums[i] > nums[i + 1])) {
+        if ((i == 0 || nums[i] > nums[i - 1]) && (i == nums.length - 1 || nums[i] > nums[i + 1])) {
             result.push(i);
         }
     }
